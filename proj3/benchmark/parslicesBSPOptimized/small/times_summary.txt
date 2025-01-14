@@ -1,0 +1,7 @@
+Dataset,Thread,Time
+small,1,14.441
+small,2,11.151
+small,4,9.525
+small,6,8.989
+small,8,8.654
+small,12,8.368

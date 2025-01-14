@@ -1,0 +1,7 @@
+Dataset,Thread,Time
+whitespace,1,10.227
+whitespace,2,8.460
+whitespace,4,7.054
+whitespace,6,6.575
+whitespace,8,6.349
+whitespace,12,6.159
