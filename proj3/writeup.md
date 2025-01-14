@@ -1,6 +1,6 @@
 # Proj 3 : Convolutional WorkStealing
 
-### **1. Describe your program and the problem it is trying to solve in detail.**
+### **1. Project Description and Problem Statement.**
 
 - Image processing, especially convolutional operations, is computationally intensive and can be time-consuming, particularly for high-resolution images or complex effects. Convolution involves applying a filter or kernel to each pixel or a group of pixels of an image, which can result in significant processing delays when done sequentially.
 - **Adding a new filtering in this project**, taking inspiration from background image removal. I applied a new filter to convert black(RGB 0,0,0) pixel into transparent pixel. This addition filtering will immediately return after it sees black pixel, simulating load imbalanced across slices, as regions with more black pixels will finish quicker, encouraging work stealing among processing workers.
